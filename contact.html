@@ -3,13 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Robby Zurkuhlen|Web Developer</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel "stylesheet" href="css/responsive.css">
     </head>
     
     <body>
         <!--start of header -->
         <header>
             <!-- clickable link that navigates to homepage-->
-            <a href="index.html">
+            <a href="index.html" id="logo">
                 <h1>Robby Zurkuhlen</h1>
                 <h2>Front End Web Developer</h2>
             </a>
@@ -24,24 +27,24 @@
                     <a href="about.html">About</a>
                     </li>
                     <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" class="selected">Contact</a>
                     </li>
                 </ul>
             </nav>
         
         </header>
         <!--end of header (made header first in classroom)-->
-        <div>
-            <section>
+        <div id="wrapper">
+            <section id="primary">
                 <h3>General Information</h3>
                 <p>For general inquiries, the best way to reach me is by email.</p>
             </section>
-            <section>
+            <section id="secondary">
                 <h3>Contact Information</h3>
-                <ul>
-                    <li><a href="tel: 15024603090">(502)460-3090</a></li>
-                    <li><a href="mailto:robbyzurkuhlen@gmail.com">robbyzurkuhlen@gmail.com</a></li>
-                    <li><a href="http://www.twitter.com" target="_blank">@chedderbom</a></li>
+                <ul class="contact-info">
+                    <li class="phone"><a href="tel: 15024603090">(502)460-3090</a></li>
+                    <li class="mail"><a href="mailto:robbyzurkuhlen@gmail.com">robbyzurkuhlen@gmail.com</a></li>
+                    <li class="twitter"><a href="http://www.twitter.com" target="_blank">@chedderbom</a></li>
                 </ul>
             </section>
         </div>
@@ -49,8 +52,8 @@
         
         <!--beginning of footer-->
         <footer>
-            <a href="http://www.twitter.com" target="_blank"><img src="img/twitter-wrap.png"></a>
-            <a href="http://www.facebook.com" target= "_blank"><img src="img/facebook-wrap.png"></a>
+            <a href="http://www.twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
+            <a href="http://www.facebook.com" target= "_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
             <p>&copy; 2020 Robby Zurkuhlen</p>
         </footer>
         <!--end of footer (made footer second in classroom)-->
